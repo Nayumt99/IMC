@@ -30,6 +30,7 @@ Além de calcular o IMC, a aplicação fornece uma avaliação dos riscos à sa�
 ## Recursos Adicionais
 
 [Artigo sobre IMC - Mayo Clinic](https://www.mayoclinic.org/es/diseases-conditions/depression/expert-answers/antidepressants/faq-20057938)
+
 [Calculadora de IMC - WHO](https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight)
 
 ## Contribuição
