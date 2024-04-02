@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="https://www.einstein.br/doencas-sintomas/obesidade">Obesidade - Einstein</a>
+            <a href="https://mundoeducacao.uol.com.br/doencas/obesidade.htm">Obesidade - Mundo Educação</a>
+            <a href="https://www.temhora.app/como-ter-habitos-saudaveis-para-melhorar-minha-saude">Hábitos Saudáveis - Tem Hora</a>
+            <a href="https://livasaude.com.br/10-dicas-para-melhorar-a-qualidade-de-vida/">10 Dicas para Melhorar a Qualidade de Vida - Liva Saúde</a>
+            <a href="https://livasaude.com.br/qual-a-importancia-de-ter-uma-boa-qualidade-do-sono/">Importância da Qualidade do Sono - Liva Saúde</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <img src="https://www.saudebemestar.pt/media/89347/obesidade.jpg" alt="Ilustração de IMC">
+        <div class="input-group">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" step="0.01" placeholder="Digite sua altura">
+        </div>
+        <div class="input-group">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Digite seu peso">
+        </div>
+        <button id="calcularBtn">Calcular IMC</button>
+        <button id="limparBtn">Limpar Campos</button>
+        <div id="resultado"></div>
+        <canvas id="graficoIMC"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
